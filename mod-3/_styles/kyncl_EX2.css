@@ -73,7 +73,11 @@ Course: CSD340
 html,body {
     font-size: 16px;
 }
-
+p {
+    font-family: 'Quattrocento', Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    line-height: 1.4em;
+}
 h1 {
     font-family: 'Oswald', Verdana, Arial, sans-serif;
     font-size: 3.052em;
@@ -97,12 +101,6 @@ h2 {
 p.intro {
     text-indent: 2em;
 }
-
-p {
-    font-family: 'Quattrocento', Georgia, "Times New Roman", serif;
-    font-weight: 400;
-    line-height: 1.4em;
-}
 span.sentence {
     font-style: italic;
 }
@@ -116,17 +114,17 @@ a{
     font-family: 'Quattrocento', Georgia, "Times New Roman", serif;
     font-weight: bold;
     font-size: 1.25em;
+    text-decoration: none;
 }
 
 a:link {
-    color: #4F3674;
-    text-decoration: none;
+    color: #4F3674;   
 }
 a:visited {
     color:blue
 }
 a:hover {
-    color: #d6a800;
+    color: #D6A800;
     text-decoration: underline;
 }
 
