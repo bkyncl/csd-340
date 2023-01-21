@@ -1,0 +1,64 @@
+/*
+kyncl_EX2.CSS
+Module 3.2 Assignment 
+Name: Brittany Kyncl
+Date: 1.12.23
+Course: CSD340
+*/
+
+html,body {
+    font-size: 16px;
+}
+p {
+    font-family: 'Quattrocento', Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+h1 {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-size: 3.052em;
+    font-weight: 700;
+    word-spacing: .5em;
+    text-transform: uppercase;
+    text-align: center;
+    margin:0;
+}
+h2 {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-size: 2.441em;
+    font-weight: 500;
+    word-spacing: .2em;
+    text-align: left;
+    margin: 0;
+    padding-top: 15px;
+}
+p.intro {
+    text-indent: 2em;
+}
+span.sentence {
+    font-style: italic;
+}
+address {
+    font-family: 'Quattrocento', Georgia, "Times New Roman", serif;
+    text-align: center;
+}
+
+a{
+    color: #4F3674;
+    font-family: 'Quattrocento', Georgia, "Times New Roman", serif;
+    font-weight: bold;
+    font-size: 1.25em;
+    text-decoration: none;
+}
+
+a:link {
+    color: #4F3674;   
+}
+a:visited {
+    color:blue;
+}
+a:hover {
+    color: #D6A800;
+    text-decoration: underline;
+}
+

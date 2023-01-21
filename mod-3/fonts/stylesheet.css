@@ -22,7 +22,7 @@
          url('oswald-v49-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
          url('oswald-v49-latin-500.woff') format('woff'), /* Modern Browsers */
          url('oswald-v49-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('_fonts/oswald-v49-latin-500.svg#Oswald') format('svg'); /* Legacy iOS */
+         url('oswald-v49-latin-500.svg#Oswald') format('svg'); /* Legacy iOS */
   }
   /* oswald-700 - latin */
   @font-face {
