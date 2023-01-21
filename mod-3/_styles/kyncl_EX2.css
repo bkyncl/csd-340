@@ -86,7 +86,6 @@ h1 {
     text-transform: uppercase;
     text-align: center;
     margin:0;
-
 }
 h2 {
     font-family: 'Oswald', Verdana, Arial, sans-serif;
@@ -96,7 +95,6 @@ h2 {
     text-align: left;
     margin: 0;
     padding-top: 15px;
-    
 }
 p.intro {
     text-indent: 2em;
@@ -121,7 +119,7 @@ a:link {
     color: #4F3674;   
 }
 a:visited {
-    color:blue
+    color:blue;
 }
 a:hover {
     color: #D6A800;

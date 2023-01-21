@@ -1,1 +1,36 @@
+/*
+site.CSS
+Module 4.2 Assignment 
+Name: Brittany Kyncl
+Date: 1.20.23
+Course: CSD340
+*/
 
+body {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+h1,h2,h3,h4 {
+    background-color: #3C275A;
+    color: #fff;
+    border: 1px solid #d6A800;
+    padding: 10px;
+}
+a{
+    color: #453674;
+    text-decoration: none;
+}
+a:link{
+    color: #453674;
+}
+a:visited {
+    color: #3c275a;
+}
+a:hover {
+    background-color: #D6A800;
+    color: #4F3674;
+}
