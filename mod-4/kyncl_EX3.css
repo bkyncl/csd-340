@@ -1,0 +1,71 @@
+/*
+kyncl_EX3.CSS
+Module 4.3 Assignment 
+Name: Brittany Kyncl
+Date: 1.20.23
+Course: CSD340
+*/
+body{
+	font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+h1 {
+	text-align: center;
+}
+.grid-container {
+	flex:auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.grid-left,.grid-right {
+	width: 45%;
+}
+.grid-left {
+	border: 1px solid red;
+	border-radius: 15px;
+	float: left;
+}
+.grid-right {
+	border: 1px dashed red;
+	border-radius: 15px;
+	float: right;
+}
+.grid-padding{
+	padding: 10px;
+}
+h3 {
+	font-weight: 500;
+}
+ol {
+	font-weight: 300;
+	list-style-position: outside;
+}
+ul  {
+	font-weight: 300;
+	list-style-position: outside;
+	list-style-type: upper-roman;
+}
+.footer {
+	margin-bottom: 20px;
+	margin-top: 60%;
+	width: 100%;
+}
+.footer a {
+	float: right;
+}
+a{
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+	
+
