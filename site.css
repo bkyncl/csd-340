@@ -8,15 +8,15 @@ Course: CSD340
 body {
     font-family: 'Oswald', Verdana, Arial, sans-serif;
 }
-#container {
-    margin-top: 50px;
+.container {
     margin-left: 100px;
     margin-right: 100px;
+    margin-top: 50px; 
 }
 h1,h2,h3,h4 {
     background-color: #3C275A;
-    color: #fff;
     border: 1px solid #d6A800;
+    color: #fff;
     padding: 10px;
 }
 a{

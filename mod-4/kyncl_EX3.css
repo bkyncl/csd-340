@@ -8,14 +8,10 @@ Course: CSD340
 body{
 	font-family: 'Oswald', Verdana, Arial, sans-serif;
 }
-h1 {
+h1 { /*center heading on page*/
 	text-align: center;
 }
-.grid-container {
-	flex:auto;
-	padding-left: 10px;
-	padding-right: 10px;
-}
+
 .grid-left,.grid-right {
 	width: 45%;
 }
@@ -45,7 +41,6 @@ ul  {
 	list-style-type: upper-roman;
 }
 .footer {
-	margin-bottom: 20px;
 	margin-top: 60%;
 	width: 100%;
 }
@@ -55,9 +50,7 @@ ul  {
 .toplink {
 	margin-bottom: 20px;
 }
-a{
-    font-family: 'Oswald', Verdana, Arial, sans-serif;
-}
+
 a:link{
     text-decoration: none;
 }
