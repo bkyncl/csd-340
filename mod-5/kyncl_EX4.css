@@ -6,13 +6,13 @@ Date: 1.24.23
 Course: CSD340
 */
 body{
+    background-color: rgba(247, 112, 24, 0.20);
 	font-family: 'Oswald', Verdana, Arial, sans-serif;
-    background-color: rgba(247, 113, 24, 0.20);
 }
 .image-gallery {
-    margin-top: 10%;
     display: grid;
     grid-auto-flow: column;
+    margin-top: 10%;
 }
 .grid-child {
 	border: 1px solid rgba(185, 63, 8);
@@ -21,21 +21,21 @@ body{
 }
 h1, h3, figure {
     color: rgba(185, 63, 8);
-	text-align: center;
     font-weight: 400;
+	text-align: center;
 }
 figcaption {
-    font-style: italic;
     font-size: .75em;
+    font-style: italic;
 }
 img {
-    width: 400px;
     height: 350px;
+    width: 400px;
 }
 .footer{
-    margin-top: 10%;
     float: right;
-    padding: 20px;
+    margin-top: 10%;
+    padding-bottom: 20px;
 }
 a:link{
     color: rgba(185, 63, 8);
