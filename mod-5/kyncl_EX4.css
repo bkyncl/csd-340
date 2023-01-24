@@ -6,6 +6,7 @@ Date: 1.24.23
 Course: CSD340
 */
 body{
+    background-color: lightcoral; /*specify fallback color*/
     background-color: rgba(247, 112, 24, 0.20);
 	font-family: 'Oswald', Verdana, Arial, sans-serif;
 }
@@ -15,11 +16,14 @@ body{
     margin-top: 10%;
 }
 .grid-child {
-	border: 1px solid rgba(185, 63, 8);
+	border: 1px solid;
+    border-color: brown; /*specify fallback color*/
+    border-color: rgba(185, 63, 8);
 	border-radius: 15px;
     padding: 5px;
 }
 h1, h3, figure {
+    color: brown; /*specify fallback color*/
     color: rgba(185, 63, 8);
     font-weight: 400;
 	text-align: center;
@@ -38,10 +42,12 @@ img {
     padding-bottom: 20px;
 }
 a:link{
+    color: brown; /*specify fallback color*/
     color: rgba(185, 63, 8);
     text-decoration: none;
 }
 a:visited {
+    color: brown; /*specify fallback color*/
     color: rgba(185, 63, 8);
 	text-decoration: none;
 }
