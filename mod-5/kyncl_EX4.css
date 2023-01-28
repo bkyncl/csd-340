@@ -42,7 +42,7 @@ img { /*img height and width specs from instructions*/
     padding-bottom: 30px;
 }
 a:link {
-    font-family: serif, Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     color: blue;
 }
