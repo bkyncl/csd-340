@@ -1,0 +1,81 @@
+/*
+kyncl_Mod_7.css
+Module 7.2 Assignment 
+Name: Brittany Kyncl
+Date: 2.9.23
+Course: CSD340
+*/
+body{
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+header {
+    background-color: #116855;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    font-weight: 400;
+}
+#navbar {
+    overflow: hidden;
+    background-color: #116855;
+    border-bottom: #000000 solid 15px;
+}
+#navbar a {
+    float: left;
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#navbar a:hover {
+    background-color: #000000;
+    color: white;
+}
+#container {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50%;
+}
+.card-title {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 400;
+}
+.card-content {
+    padding: 2px 16px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+footer {
+    background-color: #116855;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    color: white;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
