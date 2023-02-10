@@ -7,6 +7,7 @@ Course: CSD340
 */
 body{
     font-family: 'Oswald', Verdana, Arial, sans-serif;
+    margin: 0;
 }
 header {
     background-color: #116855;
@@ -57,6 +58,7 @@ h1 {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 footer {
+    overflow: hidden;
     background-color: #116855;
     position: absolute;
     bottom: 0;
@@ -65,13 +67,13 @@ footer {
 footer p {
     color: white;
     font-weight: 400;
-    float: right;
     padding-right: 10px;
     font-style: italic;
 }
 footer a {
     text-decoration: none;
     color: white;
+    float: right;
 }
 footer a:hover {
     text-decoration: underline;
