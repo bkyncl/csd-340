@@ -67,13 +67,13 @@ footer {
 footer p {
     color: white;
     font-weight: 400;
-    padding-right: 10px;
+    float:right;
+    padding: 10px;
     font-style: italic;
 }
 footer a {
     text-decoration: none;
     color: white;
-    float: right;
 }
 footer a:hover {
     text-decoration: underline;
