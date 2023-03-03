@@ -1,0 +1,246 @@
+<!--
+myBio.html
+Module 12 Assignment 
+Name: Brittany Kyncl
+Date: 3.3.23
+Course: CSD340
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="myBio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <title>myBio Landing Page</title>
+</head>
+<body>
+<header class="navheader">
+    <!--navigation bar-->
+    <div class="navcontainer">
+        <nav>
+            <!--logo-->
+            <a href="../index.html" class="logo"><img id="logo1" src="images/crane.png" alt="Logo Image"></a>
+            <!--media only hamburger-->
+            <input type="checkbox" name="menu_expand" id="menuBtn">
+            <label for="menuBtn" class="hamburger">
+                &#9776; <!--hamburger symbol reference-->
+            </label>
+            <!--menu-->
+            <ul class ="menu">
+                <li><a href="../index.html">Landing Page</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<div class="scene">
+    <ul class="scene-grid">
+        <li>
+            <h1 id="title">Brittany Kyncl</h1>
+        </li>
+        <li>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet ante vehicula,
+                lacinia nisl at, tempor ligula.Vivamus est ipsum.</p>
+        </li>
+        <li>
+            <div class="white-line"></div>
+        </li>
+        <li>
+            <p>Consequat ultrices commodo vel, feugiat a odio. Aliquam lobortis vulputate euismod.</p>
+        </li>
+        <li>
+            <img id="scene-img1" src="images/street.jpg" alt="Image 1">
+        </li>
+        <li>
+            <img id="scene-img2"src="images/blackbuilding.jpg" alt="Image 2">
+        </li>
+        <li>
+            <img id="scene-img3"src="images/grafiti.jpg" alt="Image 3">
+        </li>
+    </ul>
+</div>  
+<div class="container">
+    <div class="hobbies" id="hobbies">
+        <h1>Hobbies</h1>
+        <div class="grid-3-col">
+            <div class="card">
+                <div class="card-title">
+                    Outdoor Adventure
+                </div>
+                <div class="card-content">
+                    <p>Going outside and exploring the beauty of nature is a great way to unwind and recharge. 
+                        Personally, I find hiking and going on adventures to be incredibly fulfilling. There's something 
+                        magical about getting lost in the wilderness and discovering new sights and sounds along the way. 
+                    </p>
+                    <ul>
+                        <li>I love to go Hiking</li>
+                        <li>I enjoy bird watching</li>
+                        <li>Kayaking in the summertime</li>
+                        <li>Occasional fishing</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title">
+                    Origami
+                </div>
+                <div class="card-content">
+                    <p>Origami is a fascinating art form that has been around for centuries. I find myself particularly
+                        drawn to modular origami, which involves the creation of complex structures and shapes using multiple pieces of paper. 
+                        The precision and patience required to fold each piece and then assembling them together to form a larger structure is both 
+                        challenging and rewarding. It allows for a great deal of experimentation and customization to create unique designs.
+                    </p>
+                    <ul>
+                        <li>Modular Origami is my favorite</li>
+                        <li>My goal is to one day complete a <a href="https://www.rituals.com/en-us/mag-rituality-the-legend-of-senbazuru.html" title="Click to learn more" target="blank">Senbazuru</a> set</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title">
+                    Gaming
+                </div>
+                <div class="card-content">
+                    <p>Playing video games is a fun and engaging activity I try do do when I have extra time. Exploring virtual environments
+                        and intersting story lines can be so much fun, along with the added challenge of solving puzzles. However, I find that
+                        I rarely have enough time to commit to a new long storied game. So I find myself continuing to go back to a few favorites time
+                        and again. Even if they're a bit old. Games such as...
+                    </p>
+                    <ul>
+                        <li>Division 2</li>
+                        <li>The Fallout Series</li>
+                        <li>The Portal Series</li>
+                        <li>The Last of Us</li>
+                        <li>Zelda: Breath of the Wild</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gallery-container">
+        <div class="gallery-title">
+            <h1>Modular Origami Designs</h1>
+            <p>Hover over the graphics to check out some of the more challendging modular origami designs</p>
+        </div>
+        <div class="img-container">
+            <div class="img-box"><h3>5 Interlocking Tetradedra</h3></div>
+            <div class="img-box"><h3>Interlocking Diamong Window Cube</h3></div>
+            <div class="img-box"><h3>Intersecting Pentagonal Prisms</h3></div>
+            <div class="img-box"><h3>Interlocking Dodecahedrons</h3></div>
+        </div>
+    </div>
+    <div class="experience" id="experience">
+        <h1>Experience</h1>
+        <div class="grid-3-col">
+            <div class="card">
+                <div class="card-title">
+                    Personal
+                </div>
+                <div class="card-content">
+                    Sed ac varius magna, id lacinia quam. Donec ultrices rhoncus feugiat. Curabitur sit amet dolor non nisi fringilla viverra eu sed eros.
+                    Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla neque orci, interdum sit amet tortor vitae, efficitur efficitur nisl.
+                    Quisque velit libero, ultricies non dignissim et, vehicula et felis. Sed tempus nibh ac nisl malesuada finibus.
+                    <ul>
+                        <li>Division 2</li>
+                        <li>The Fallout Series</li>
+                        <li>The Portal Series</li>
+                        <li>The Last of Us</li>
+                        <li>Zelda: Breath of the Wild</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-title">
+                    Education
+                </div>
+                <div class="card-content">
+                    Vestibulum lobortis, ipsum ut gravida porttitor, neque arcu cursus turpis, vel eleifend leo magna eu nisi.
+                    Praesent non nisi vitae dolor facilisis finibus eget et ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    Nunc vehicula ornare libero nec congue. Aenean sagittis lectus eu dui vestibulum lacinia. 
+                    <ul>
+                        <li>Division 2</li>
+                        <li>The Fallout Series</li>
+                        <li>The Portal Series</li>
+                        <li>The Last of Us</li>
+                        <li>Zelda: Breath of the Wild</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title">
+                    Professional
+                </div>
+                <div class="card-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id enim quis lacus sagittis aliquam vitae quis dui.
+                    Mauris sit amet neque dignissim, pretium ante at, tincidunt nisl. Praesent molestie ex sapien, ac pretium orci congue vel.
+                    Fusce commodo dapibus ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada 
+                    <ul>
+                        <li>Division 2</li>
+                        <li>The Fallout Series</li>
+                        <li>The Portal Series</li>
+                        <li>The Last of Us</li>
+                        <li>Zelda: Breath of the Wild</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <div class="contact-container" id="contact">
+        <div class="form-title">
+            <h1>Contact Form</h1>
+            <p>Feel free to contact me and I will get back to you as soon as I can.</p>
+        </div>
+        <form class="form" action="mailto:brittanyrosekyncl@gmail.com?subject=Contact%20Form%20Submission" method="POST" enctype="text/plain">
+           
+            <label for="FirstName">First Name</label>
+            <input type="text" id="FirstName" class="input" name="FirstName" required/>
+    
+            <label for="LastName">Last Name</label>
+            <input type="text" id="LastName" class="input" name="LastName" required/>
+    
+            <label for="Email">Email</label>
+            <input type="text" id="Email" class="input" name="Email" required/>
+
+            <label for="Message">Message</label>
+            <textarea type="text" class="textarea" name="Message" cols="5" rows="5" required></textarea>
+
+            <input type="submit" class="btn btn-primary" value="Make Contact">
+        </form>
+    </div>
+</div>
+<footer class="footer">
+    <div class="footer-left">
+        <!--logo-->
+        <a href="../index.html" class="logo"><img id="logo2" src="images/crane.png" alt="Logo Image"></a>        
+    </div>
+    <div class="separator"></div>
+    <div class="footer-center">
+        <ul class ="menu">
+            <li><a href="../index.html">Landing Page</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <div class="separator"></div>
+    <div class="footer-right">
+        <p class="contact">Social Media</p>
+        <div class ="contact-icons">
+            <a href="#">
+                <img src="images/insta.png" alt="instagram" class="icon">
+            </a>
+            <a href="#">
+                <img src="images/linkedin.png" alt="linkedin" class="icon">
+            </a>
+            <p class="contact">&#169;2023 B.Kyncl</p>
+        </div>
+    </div>
+  </footer>
+</body>
+</html>
